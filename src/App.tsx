@@ -19,7 +19,7 @@ function App() {
   const fetchFAQs = async () => {
     try {
       setLoading(true);
-      const response = await fetch('http://3.88.162.134:3000/api/faq');
+      const response = await fetch('http://44.201.228.138:3000/api/faq');
       const data = await response.json();
       console.log(data);
       localStorage.setItem('faqs', JSON.stringify(data));      
@@ -44,7 +44,7 @@ function App() {
 
     try {
       setSubmitting(true);
-      const response = await fetch('http://3.88.162.134:3000/api/faq', {
+      const response = await fetch('http://44.201.228.138:3000/api/faq', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
