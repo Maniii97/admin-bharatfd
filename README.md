@@ -71,7 +71,6 @@ Before you start, ensure you have the following installed:
   
 - **Dashboard**:
   - Displays the list of all FAQs.
-  - Pagination is implemented for easy navigation.
   
 - **Add FAQ**:
   - The admin can create a new FAQ entry.
